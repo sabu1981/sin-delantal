@@ -29,6 +29,6 @@ swagger:
   schemes:
     - http
     - https
-  termsOfServiceUrl: http://www.amk-technologies.com
+  termsOfServiceUrl: http://www.google.com
   title: Sin Delantal Restful Services
   version: 1.0.0
