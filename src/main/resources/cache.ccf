@@ -22,4 +22,4 @@ jcs.region.spotifyToken.elementattributes.MaxLife=720
 jcs.region.spotifyToken.elementattributes.IdleTime=1800
 jcs.region.spotifyToken.elementattributes.IsSpool=true
 jcs.region.spotifyToken.elementattributes.IsRemote=true
-jcs.region.campaignCache.elementattributes.IsLateral=true
+jcs.region.spotifyToken.elementattributes.IsLateral=true
