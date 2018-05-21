@@ -1,0 +1,25 @@
+# DEFAULT CACHE REGION
+
+# Default configuration for caches not configured.
+jcs.default=
+jcs.default.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.default.cacheattributes.MaxObjects=1000
+jcs.default.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.default.elementattributes.IsEternal=false
+jcs.default.elementattributes.MaxLife=3600
+jcs.default.elementattributes.IdleTime=1800
+jcs.default.elementattributes.IsSpool=true
+jcs.default.elementattributes.IsRemote=true
+jcs.default.elementattributes.IsLateral=true
+
+# Spotify TOKEN config
+jcs.region.spotifyToken=
+jcs.region.spotifyToken.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.region.spotifyToken.cacheattributes.MaxObjects=20
+jcs.region.spotifyToken.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.spotifyToken.elementattributes.IsEternal=false
+jcs.region.spotifyToken.elementattributes.MaxLife=720
+jcs.region.spotifyToken.elementattributes.IdleTime=1800
+jcs.region.spotifyToken.elementattributes.IsSpool=true
+jcs.region.spotifyToken.elementattributes.IsRemote=true
+jcs.region.campaignCache.elementattributes.IsLateral=true

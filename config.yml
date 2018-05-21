@@ -1,0 +1,34 @@
+server:
+  type: default
+  maxThreads: 512
+  gzip:
+    enabled: true
+  applicationContextPath: /sin-delantal/prueba/v1
+  applicationConnectors:
+    - type: http
+      port: 8088
+  adminConnectors:
+    - type: http
+      port: 8089
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
+    
+swagger:
+  basePath: /sin-delantal/prueba/v1
+  contact: Esau Mendoza
+  contactEmail: esmecr@gmail.com
+  description: Sin Delantal prueba
+  host: localhost:8088
+  license: Personal trainig
+  licenseUrl: http://www.google.com
+  resourcePackage: com.sindelantal.prueba.resources
+  scan: true
+  schemes:
+    - http
+    - https
+  termsOfServiceUrl: http://www.amk-technologies.com
+  title: Sin Delantal Restful Services
+  version: 1.0.0
